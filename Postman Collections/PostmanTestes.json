@@ -1,0 +1,69 @@
+{
+  "info": {
+    "_postman_id": "d49cc431-41f7-4d89-a0ae-dbee5a50e43a",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "sql",
+      "_postman_id": "b4233fc6-5550-4b8f-ba9c-de3a94db8c1b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "http://127.0.0.1:8000/executeQuery2/USE mysql/SELECT db FROM db "
+      },
+      "response": []
+    },
+    {
+      "name": "sql 2",
+      "_postman_id": "5a656322-4983-49e3-9479-9c8857b4f26b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"database\": \"mysql\",\r\n  \"query\": \"SELECT * FROM db\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://127.0.0.1:8000/executeQuery2"
+      },
+      "response": []
+    },
+    {
+      "name": "New Request",
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "id": "2d55f18b-f9f2-4568-84d4-22067903ef60",
+            "exec": [
+              ""
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "_postman_id": "0898af62-89ea-4d48-82e2-3f31d66e0216",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "https://www.google.com.br/"
+      },
+      "response": []
+    }
+  ]
+}
