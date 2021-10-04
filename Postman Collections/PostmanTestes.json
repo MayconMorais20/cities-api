@@ -29,7 +29,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"database\": \"mysql\",\r\n  \"query\": \"SELECT * FROM db\"\r\n}",
+          "raw": "{\r\n  \"query\": \"SELECT * FROM db\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
