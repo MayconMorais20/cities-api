@@ -7,7 +7,7 @@
   "item": [
     {
       "name": "sql",
-      "_postman_id": "b4233fc6-5550-4b8f-ba9c-de3a94db8c1b",
+      "id": "b4233fc6-5550-4b8f-ba9c-de3a94db8c1b",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -20,7 +20,7 @@
     },
     {
       "name": "sql 2",
-      "_postman_id": "5a656322-4983-49e3-9479-9c8857b4f26b",
+      "id": "5a656322-4983-49e3-9479-9c8857b4f26b",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -29,7 +29,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"database\": \"mysql\",\r\n  \"query\": \"SELECT * FROM db\"\r\n}",
+          "raw": "{\r\n  \"query\": \"SELECT * FROM db\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
@@ -54,7 +54,7 @@
           }
         }
       ],
-      "_postman_id": "0898af62-89ea-4d48-82e2-3f31d66e0216",
+      "id": "0898af62-89ea-4d48-82e2-3f31d66e0216",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
       },
@@ -62,6 +62,28 @@
         "method": "GET",
         "header": [],
         "url": "https://www.google.com.br/"
+      },
+      "response": []
+    },
+    {
+      "name": "https://correios.contrateumdev.com.br/api/rastreio",
+      "id": "db13d5d7-75ae-427e-964b-f7d456f1647d",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"code\": \"NX365877563BR\",\r\n    \"type\": \"LS\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "https://correios.contrateumdev.com.br/api/rastreio"
       },
       "response": []
     }
