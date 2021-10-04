@@ -29,7 +29,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"query\": \"SELECT * FROM accounts_db.ra_audit_log WHERE log_id <> '25079280095232096'\"\r\n}",
+          "raw": "{\r\n  \"query\": \"SELECT * FROM accounts_db.ra_audit_log WHERE log_id = '25079280095232096'\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
