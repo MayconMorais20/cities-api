@@ -68,7 +68,7 @@
               "var settings = {\r",
               "    async: false,\r",
               "    crossDomain: true,\r",
-              "    url: \"http://127.0.0.1:8000/executes\",\r",
+              "    url: \"http://127.0.0.1:8000/execute\",\r",
               "    method: 'POST',\r",
               "    body: \"\"\r",
               "};\r",
