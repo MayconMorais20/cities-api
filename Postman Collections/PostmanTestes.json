@@ -36,7 +36,7 @@
               "    pm.expect(obj[\"log_root_account\"]).equals(\"SUCCESS\")\r",
               "    pm.expect(obj[\"log_user_name\"]).equals(\"1\")\r",
               "    pm.expect(obj[\"log_action\"]).equals(\"ACCESS\")\r",
-              "    },10000)\r",
+              "    },100000)\r",
               "});\r",
               ""
             ],
