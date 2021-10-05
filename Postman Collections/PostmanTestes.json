@@ -65,8 +65,16 @@
           "script": {
             "id": "2fdc6db5-3d18-4a5b-91c7-70b08bce0dc5",
             "exec": [
-              "pm.sendRequest(\"http://127.0.0.1:8000/execute\", function (err, response) {\r",
-              "    console.log(response.json());\r",
+              "var settings = {\r",
+              "    async: false,\r",
+              "    crossDomain: true,\r",
+              "    url: \"http://127.0.0.1:8000/executes\",\r",
+              "    method: 'POST',\r",
+              "    body: \"\"\r",
+              "};\r",
+              "\r",
+              "pm.sendRequest(settings, (err, res) => { \r",
+              "    eval(res.text()); \r",
               "});"
             ],
             "type": "text/javascript"
