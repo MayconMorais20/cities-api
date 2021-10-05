@@ -65,17 +65,7 @@
           "script": {
             "id": "2fdc6db5-3d18-4a5b-91c7-70b08bce0dc5",
             "exec": [
-              "pm.sendRequest({\r",
-              "    url: \"http://127.0.0.1:8000/execute\",\r",
-              "    method: \"POST\",\r",
-              "    header: {\r",
-              "        \"content-type\": \"application/json\",\r",
-              "        \"accept\": \"application/json\",\r",
-              "    },\r",
-              "    body: {\"query\": \"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_id <> '25079280095232096'\"}\r",
-              "}, function (err, res) {\r",
-              "    console.log(res.json())\r",
-              "});"
+              ""
             ],
             "type": "text/javascript"
           }
