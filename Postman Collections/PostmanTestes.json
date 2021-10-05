@@ -33,6 +33,7 @@
               "    console.log()\r",
               "    pm.expect(obj[\"log_user_account\"]).equals(\"super@neurotech.com.br\")\r",
               "    pm.expect(obj[\"log_root_account\"]).equals(\"SUCCESS\")\r",
+              "    pm.expect(obj[\"log_user_name\"]).equals(\"1\")\r",
               "});"
             ],
             "type": "text/javascript"
