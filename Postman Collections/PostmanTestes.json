@@ -19,28 +19,6 @@
       "response": []
     },
     {
-      "name": "query",
-      "id": "5a656322-4983-49e3-9479-9c8857b4f26b",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n  \"query\": \"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_id <> '25079280095232096'\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": "http://127.0.0.1:8000/execute"
-      },
-      "response": []
-    },
-    {
       "name": "readme",
       "event": [
         {
@@ -62,6 +40,28 @@
         "method": "GET",
         "header": [],
         "url": "http://127.0.0.1:8000/readme"
+      },
+      "response": []
+    },
+    {
+      "name": "query",
+      "id": "5a656322-4983-49e3-9479-9c8857b4f26b",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"query\": \"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_id <> '25079280095232096'\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://127.0.0.1:8000/execute"
       },
       "response": []
     }
