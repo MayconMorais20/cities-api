@@ -112,7 +112,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"query\": \"SELECT * FROM $ra_dse$.@ra_user@ \"\r\n}",
+          "raw": "{\r\n  \"query\": \"SELECT * FROM $ra_dse$.@ra_user@\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
