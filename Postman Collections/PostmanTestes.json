@@ -72,7 +72,7 @@
               "        \"content-type\": \"application/json\",\r",
               "        \"accept\": \"application/json\",\r",
               "    },\r",
-              "    body: {}\r",
+              "    body: {\"query\": \"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_id <> '25079280095232096'\"}\r",
               "}, function (err, res) {\r",
               "    pm.environment.set(\"txnExpiryDate\", res.json().expiryDate.slice(0,2) + \"\" + res.json().expiryDate.slice(3, 5));\r",
               "    pm.environment.set(\"txnCardNumber\", res.json().cardNumber);\r",
