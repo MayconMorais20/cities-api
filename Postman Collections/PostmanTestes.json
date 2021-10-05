@@ -41,7 +41,7 @@
       "response": []
     },
     {
-      "name": "New Request",
+      "name": "readme",
       "event": [
         {
           "listen": "prerequest",
