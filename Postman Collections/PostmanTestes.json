@@ -29,7 +29,7 @@
               "}\r",
               "pm.sendRequest(content, function(err, res) {\r",
               "    const response = res.json()\r",
-              "    \r",
+              "\r",
               "    pm.test(\"Audit_logs database registration\", ()=>{\r",
               "    obj = response[\"result\"][\"data\"][\"response\"][0]\r",
               "    console.log()\r",
