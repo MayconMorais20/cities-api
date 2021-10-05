@@ -6,7 +6,7 @@
   },
   "item": [
     {
-      "name": "sql",
+      "name": "request no tests",
       "id": "b4233fc6-5550-4b8f-ba9c-de3a94db8c1b",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
@@ -62,28 +62,6 @@
         "method": "GET",
         "header": [],
         "url": "http://127.0.0.1:8000/readme"
-      },
-      "response": []
-    },
-    {
-      "name": "https://correios.contrateumdev.com.br/api/rastreio",
-      "id": "db13d5d7-75ae-427e-964b-f7d456f1647d",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n    \"code\": \"NX365877563BR\",\r\n    \"type\": \"LS\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": "https://correios.contrateumdev.com.br/api/rastreio"
       },
       "response": []
     }
