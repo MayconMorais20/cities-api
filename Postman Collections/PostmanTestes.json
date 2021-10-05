@@ -29,7 +29,10 @@
               "}\r",
               "pm.sendRequest(content, function(err, res) {\r",
               "    response = res.json()\r",
-              "    console.log(response)\r",
+              "    obj = response[\"result\"][\"data\"][\"response\"][0]\r",
+              "    console.log()\r",
+              "    pm.expect(obj[\"log_user_account\"]).equals(\"super@neurotech.com.br\")\r",
+              "    pm.expect(obj[\"log_root_account\"]).equals(\"SUCCESS\")\r",
               "});"
             ],
             "type": "text/javascript"
