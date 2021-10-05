@@ -19,7 +19,7 @@
               "    header: [],\r",
               "    body: { \r",
               "\t\t\t\"mode\":\"raw\",\r",
-              "\t\t\t\"raw\": {\"query\": \"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_id = '25079280095232096'\"},\r",
+              "\t\t\t\"raw\": {\"query\": \"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_dtaction > '2021-09-13 00:39:42'\"},\r",
               "\t\t\t\"options\": {\r",
               "\t\t\t\t\"raw\": {\r",
               "\t\t\t\t\t\"language\": \"json\"\r",
