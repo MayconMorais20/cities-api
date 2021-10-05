@@ -28,7 +28,9 @@
               "    }\r",
               "}\r",
               "pm.sendRequest(content, function(err, res) {\r",
-              "    console.log(res.json())\r",
+              "    response = res.json()\r",
+              "    console.log(response)\r",
+              "    pm.expect()\r",
               "});"
             ],
             "type": "text/javascript"
