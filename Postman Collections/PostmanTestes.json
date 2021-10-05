@@ -7,6 +7,20 @@
   "item": [
     {
       "name": "request no tests",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "d89dbf3f-aa5e-46f6-8678-760f67eb5c6f",
+            "exec": [
+              "pm.sendRequest(\"http://127.0.0.1:8000/readme\", function (err, response) {\r",
+              "    console.log(response.json());\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
       "id": "b4233fc6-5550-4b8f-ba9c-de3a94db8c1b",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
@@ -45,6 +59,20 @@
     },
     {
       "name": "query",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "id": "2fdc6db5-3d18-4a5b-91c7-70b08bce0dc5",
+            "exec": [
+              "pm.sendRequest(\"http://127.0.0.1:8000/readme\", function (err, response) {\r",
+              "    console.log(response.json());\r",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
       "id": "5a656322-4983-49e3-9479-9c8857b4f26b",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
