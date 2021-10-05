@@ -65,7 +65,7 @@
           "script": {
             "id": "2fdc6db5-3d18-4a5b-91c7-70b08bce0dc5",
             "exec": [
-              "pm.sendRequest(\"http://127.0.0.1:8000/readme\", function (err, response) {\r",
+              "pm.sendRequest(\"http://127.0.0.1:8000/execute\", function (err, response) {\r",
               "    console.log(response.json());\r",
               "});"
             ],
