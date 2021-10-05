@@ -34,6 +34,7 @@
               "    pm.expect(obj[\"log_user_account\"]).equals(\"super@neurotech.com.br\")\r",
               "    pm.expect(obj[\"log_root_account\"]).equals(\"SUCCESS\")\r",
               "    pm.expect(obj[\"log_user_name\"]).equals(\"1\")\r",
+              "    pm.expect(obj[\"log_action\"]).equals(\"ACCESS\")\r",
               "});"
             ],
             "type": "text/javascript"
