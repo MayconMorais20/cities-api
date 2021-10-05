@@ -29,7 +29,7 @@
               "}\r",
               "pm.sendRequest(content, function(err, res) {\r",
               "    response = res.json()\r",
-              "   \r",
+              "    console.log(response)\r",
               "});"
             ],
             "type": "text/javascript"
