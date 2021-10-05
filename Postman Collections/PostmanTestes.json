@@ -13,8 +13,22 @@
           "script": {
             "id": "d89dbf3f-aa5e-46f6-8678-760f67eb5c6f",
             "exec": [
-              "pm.sendRequest(\"http://127.0.0.1:8000/readme\", function (err, response) {\r",
-              "    console.log(response.json());\r",
+              "let content= {\r",
+              "    url: \"http://127.0.0.1:8000/execute\",\r",
+              "    method: \"POST\",\r",
+              "    header: [],\r",
+              "    body: { \r",
+              "\t\t\t\"mode\":\"raw\",\r",
+              "\t\t\t\"raw\": \"{\\r\\n  \\\"query\\\": \\\"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_id <> '25079280095232096'\\\"\\r\\n}\",\r",
+              "\t\t\t\"options\": {\r",
+              "\t\t\t\t\"raw\": {\r",
+              "\t\t\t\t\t\"language\": \"json\"\r",
+              "\t\t\t\t}\r",
+              "\t\t  }\r",
+              "    }\r",
+              "}\r",
+              "pm.sendRequest(content, function(err, res) {\r",
+              "    console.log(res.json())\r",
               "});"
             ],
             "type": "text/javascript"
@@ -65,7 +79,23 @@
           "script": {
             "id": "2fdc6db5-3d18-4a5b-91c7-70b08bce0dc5",
             "exec": [
-              ""
+              "let content= {\r",
+              "    url: \"http://127.0.0.1:8000/execute\",\r",
+              "    method: \"POST\",\r",
+              "    header: [],\r",
+              "    body: { \r",
+              "\t\t\t\"mode\":\"raw\",\r",
+              "\t\t\t\"raw\": \"{\\r\\n  \\\"query\\\": \\\"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_id <> '25079280095232096'\\\"\\r\\n}\",\r",
+              "\t\t\t\"options\": {\r",
+              "\t\t\t\t\"raw\": {\r",
+              "\t\t\t\t\t\"language\": \"json\"\r",
+              "\t\t\t\t}\r",
+              "\t\t  }\r",
+              "    }\r",
+              "}\r",
+              "pm.sendRequest(content, function(err, res) {\r",
+              "    console.log(res.json())\r",
+              "});"
             ],
             "type": "text/javascript"
           }
