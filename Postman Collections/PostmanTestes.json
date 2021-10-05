@@ -65,16 +65,17 @@
           "script": {
             "id": "2fdc6db5-3d18-4a5b-91c7-70b08bce0dc5",
             "exec": [
-              "var settings = {\r",
-              "    async: false,\r",
-              "    crossDomain: true,\r",
+              "pm.sendRequest({\r",
               "    url: \"http://127.0.0.1:8000/execute\",\r",
-              "    method: 'POST',\r",
-              "    body: {\"query\": \"SELECT * FROM $accounts_db$.@ra_audit_log@ WHERE log_id <> '25079280095232096'\"}\r",
-              "};\r",
-              "\r",
-              "pm.sendRequest(settings, (err, res) => { \r",
-              "    eval(res.text()); \r",
+              "    method: \"GET\",\r",
+              "    header: {\r",
+              "        \"content-type\": \"application/json\",\r",
+              "        \"accept\": \"application/json\",\r",
+              "    },\r",
+              "    body: {}\r",
+              "}, function (err, res) {\r",
+              "    pm.environment.set(\"txnExpiryDate\", res.json().expiryDate.slice(0,2) + \"\" + res.json().expiryDate.slice(3, 5));\r",
+              "    pm.environment.set(\"txnCardNumber\", res.json().cardNumber);\r",
               "});"
             ],
             "type": "text/javascript"
