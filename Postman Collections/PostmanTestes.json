@@ -67,7 +67,7 @@
             "exec": [
               "pm.sendRequest({\r",
               "    url: \"http://127.0.0.1:8000/execute\",\r",
-              "    method: \"GET\",\r",
+              "    method: \"POST\",\r",
               "    header: {\r",
               "        \"content-type\": \"application/json\",\r",
               "        \"accept\": \"application/json\",\r",
