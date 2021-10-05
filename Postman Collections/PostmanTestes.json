@@ -29,11 +29,7 @@
               "}\r",
               "pm.sendRequest(content, function(err, res) {\r",
               "    response = res.json()\r",
-              "    obj = response[\"result\"][\"data\"][\"response\"]\r",
-              "    for(i = 0; i <= obj.length; i++){\r",
-              "        console.log(obj[i])\r",
-              "    }\r",
-              "    pm.expect()\r",
+              "   \r",
               "});"
             ],
             "type": "text/javascript"
