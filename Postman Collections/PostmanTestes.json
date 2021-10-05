@@ -14,7 +14,7 @@
       "request": {
         "method": "GET",
         "header": [],
-        "url": "http://127.0.0.1:8000/executeQuery2/USE mysql/SELECT db FROM db "
+        "url": "http://127.0.0.1:8000/readme"
       },
       "response": []
     },
