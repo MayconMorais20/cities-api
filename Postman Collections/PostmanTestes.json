@@ -19,7 +19,7 @@
       "response": []
     },
     {
-      "name": "sql 2",
+      "name": "query",
       "id": "5a656322-4983-49e3-9479-9c8857b4f26b",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
