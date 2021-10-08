@@ -124,28 +124,6 @@
       "response": []
     },
     {
-      "name": "get token",
-      "id": "095f445f-90d3-4b7f-b898-965b1a80e0ee",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\r\n    \"credentials\":{\"host\":\"rds-dse-aurora-us-dsv.riskpack.com.br\",\"user\":\"mdfm\",\"password\":\"jbdhspogjoH#@F\",\"db\":\"ra_dse\"},\r\n    \"secret\":\"TmV1cm90ZWNoQDEy\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": "http://127.0.0.1:8000/token"
-      },
-      "response": []
-    },
-    {
       "name": "query Copy",
       "event": [
         {
@@ -176,6 +154,28 @@
           }
         },
         "url": "http://127.0.0.1:8000/execute"
+      },
+      "response": []
+    },
+    {
+      "name": "get token",
+      "id": "095f445f-90d3-4b7f-b898-965b1a80e0ee",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"credentials\":{\"host\":\"rds-dse-aurora-us-dsv.riskpack.com.br\",\"user\":\"mdfm\",\"password\":\"jbdhspogjoH#@F\",\"db\":\"ra_dse\"},\r\n    \"secret\":\"TmV1cm90ZWNoQDEy\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": "http://127.0.0.1:8000/token"
       },
       "response": []
     }
