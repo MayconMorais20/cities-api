@@ -112,7 +112,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{ \"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJob3N0IjoicmRzLWRzZS1hdXJvcmEtdXMtZHN2LnJpc2twYWNrLmNvbS5iciIsInVzZXIiOiJtZGZtIiwicGFzc3dvcmQiOiJqYmRoc3BvZ2pvSCNARiIsImRiIjoicmFfZHNlIn0.U3XJracaBQc1e7LyCMLBAUmpMAnKajRWKmu-7FMIg8I\",\r\n  \"secret\":\"TmV1cm90ZWNoQDEy\",\r\n  \"query\": \"SELECT * FROM $ra_dse$.@ra_user@\"\r\n}",
+          "raw": "{ \"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJob3N0IjoicmRzLWRzZS1hdXJvcmEtdXMtZHN2LnJpc2twYWNrLmNvbS5iciIsInVzZXIiOiJtZGZtIiwicGFzc3dvcmQiOiJqYmRoc3BvZ2pvSCNARiIsImRiIjoicmFfZHNlIn0.U3XJracaBQc1e7LyCMLBAUmpMAnKajRWKmu-7FMIg8I\",\r\n  \"secret\":\"Neurotech@12\",\r\n  \"query\": \"SELECT * FROM $ra_dse$.@ra_user@\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
