@@ -124,40 +124,6 @@
       "response": []
     },
     {
-      "name": "query Copy",
-      "event": [
-        {
-          "listen": "test",
-          "script": {
-            "id": "89b7f6d9-1b57-4e78-a758-c25cc02027ef",
-            "exec": [
-              ""
-            ],
-            "type": "text/javascript"
-          }
-        }
-      ],
-      "id": "849e1ae9-4dbf-4bc8-bcb5-d5667ec41bca",
-      "protocolProfileBehavior": {
-        "disableBodyPruning": true
-      },
-      "request": {
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{ \"token\":\"\",\r\n  \"secret\":\"\",\r\n  \"query\": \"SELECT * FROM $ra_dse$.@ra_user@\"\r\n}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": "http://127.0.0.1:8000/v2/execute"
-      },
-      "response": []
-    },
-    {
       "name": "get token",
       "id": "095f445f-90d3-4b7f-b898-965b1a80e0ee",
       "protocolProfileBehavior": {
