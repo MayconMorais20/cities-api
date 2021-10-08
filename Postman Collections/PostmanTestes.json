@@ -134,7 +134,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n    \"credentials\":{\"host\":\"rds-dse-aurora-us-dsv.riskpack.com.br\",\"user\":\"mdfm\",\"password\":\"jbdhspogjoH#@F\",\"db\":\"ra_dse\",\"secret\":\"TmV1cm90ZWNoQDEy\"}\r\n}",
+          "raw": "{\r\n    \"credentials\":{\"host\":\"rds-dse-aurora-us-dsv.riskpack.com.br\",\"user\":\"mdfm\",\"password\":\"jbdhspogjoH#@F\",\"db\":\"ra_dse\"},\r\n    \"secret\":\"TmV1cm90ZWNoQDEy\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
