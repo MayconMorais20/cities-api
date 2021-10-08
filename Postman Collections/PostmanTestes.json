@@ -112,7 +112,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"query\": \"SELECT * FROM $ra_dse$.@ra_user@\"\r\n}",
+          "raw": "{ \"database\":{\"host\":\"rds-dse-aurora-us-dsv.riskpack.com.br\",\"user\":\"mdfm\",\"password\":\"jbdhspogjoH#@F\",\"db\":\"ra_dse\"},\r\n  \"query\": \"SELECT * FROM $ra_dse$.@ra_user@\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
