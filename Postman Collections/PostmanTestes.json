@@ -112,7 +112,7 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{ \"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJob3N0IjoicmRzLWRzZS1hdXJvcmEtdXMtZHN2LnJpc2twYWNrLmNvbS5iciIsInVzZXIiOiJtZGZtIiwicGFzc3dvcmQiOiJqYmRoc3BvZ2pvSCNARiIsImRhdGFiYXNlIjoicmFfZHNlIn0.oVMOGDslfk5sBACPMUBaBswqQ_Sy0h9UBtKWOJ6pfYg\",\r\n  \"secretdecode\":\"TmV1cm90ZWNoQDEy\",\r\n  \"local\": false,\r\n  \"query\": \"SELECT * FROM rsk_logs_dsv.logs_report_config  WHERE logs_report_config.rptconf_name LIKE 'N266602' AND logs_report_config.rptconf_name LIKE 'QAtestInvalidName'\"\r\n}",
+          "raw": "{ \"token\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJob3N0IjoicmRzLWRzZS1hdXJvcmEtdXMtZHN2LnJpc2twYWNrLmNvbS5iciIsInVzZXIiOiJtZGZtIiwicGFzc3dvcmQiOiJqYmRoc3BvZ2pvSCNARiIsImRhdGFiYXNlIjoicmFfZHNlIn0.oVMOGDslfk5sBACPMUBaBswqQ_Sy0h9UBtKWOJ6pfYg\",\r\n  \"secretdecode\":\"TmV1cm90ZWNoQDEy\",\r\n  \"local\": false,\r\n  \"query\": \"SELECT * FROM $rsk_logs_dsv$.@logs_report_config@  WHERE logs_report_config.rptconf_name LIKE 'N266602' AND logs_report_config.rptconf_name LIKE 'QAtestInvalidName'\"\r\n}",
           "options": {
             "raw": {
               "language": "json"
