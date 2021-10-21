@@ -6,7 +6,7 @@
   },
   "item": [
     {
-      "name": "request no tests",
+      "name": "request no Tests",
       "event": [
         {
           "listen": "test",
@@ -41,8 +41,9 @@
               "    {\r",
               "        pm.test(\"checando se o status do reporte está como 'I' (inativo)\", ()=>{\r",
               "            const responseRequestDatabaseAPI = res.json()\r",
+              "            console.log(responseRequestDatabaseAPI)\r",
               "            pm.expect(res).to.have.status(200)\r",
-              "            console.log(obj)\r",
+              "            \r",
               "            obj = responseRequestDatabaseAPI[\"result\"][\"data\"][\"response\"][0]\r",
               "            pm.expect(obj[\"RPTCONF_STATUS\"]).equals(\"I\")\r",
               "        })\r",
