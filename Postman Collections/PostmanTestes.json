@@ -41,7 +41,9 @@
               "    {\r",
               "        pm.test(\"checando se o status do reporte está como 'I' (inativo)\", ()=>{\r",
               "            const responseRequestDatabaseAPI = res.json()\r",
+              "            console.log(responseRequestDatabaseAPI)\r",
               "            pm.expect(res).to.have.status(200)\r",
+              "            \r",
               "            obj = responseRequestDatabaseAPI[\"result\"][\"data\"][\"response\"][0]\r",
               "            pm.expect(obj[\"RPTCONF_STATUS\"]).equals(\"I\")\r",
               "        })\r",
@@ -61,14 +63,14 @@
         "header": [],
         "body": {
           "mode": "raw",
-          "raw": "{\r\n  \"query\": \"SELECT * FROM $ra_dse$.@ra_audit_log@ WHERE log_module_name = \\\"LOGSB\\\" ORDER BY log_dtaction DESC\"\r\n}",
+          "raw": "",
           "options": {
             "raw": {
               "language": "json"
             }
           }
         },
-        "url": "http://127.0.0.1:8000/execute"
+        "url": "https://www.google.com.br/"
       },
       "response": []
     },
