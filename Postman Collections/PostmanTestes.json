@@ -124,7 +124,7 @@
       "response": []
     },
     {
-      "name": "get token",
+      "name": "Get Token",
       "id": "095f445f-90d3-4b7f-b898-965b1a80e0ee",
       "protocolProfileBehavior": {
         "disableBodyPruning": true
